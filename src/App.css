@@ -1,0 +1,32 @@
+.hero nav {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 30px;
+    height: 60px;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .hero nav .menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+  }
+  
+  .hero nav span {
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+  
+  @media (max-width: 900px) {
+    .hero nav span {
+      display: block;
+    }
+    .hero nav .menu.hidden {
+      display: none;
+    }
+  }
+  
